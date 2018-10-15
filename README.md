@@ -1,6 +1,6 @@
-## This is for documentation of how data was preprocessed in the publication zhang et al. 2018 (“White Matter Microstructural Variability Mediates the Relation between Obesity and Cognition in Healthy Adults.” NeuroImage 172 (February):239–49.)
+## This is for documentation of how data was preprocessed in the publication zhang et al. 2018 (“White Matter Micro-structural Variability Mediates the Relation between Obesity and Cognition in Healthy Adults.” NeuroImage 172 (February):239–49.)
 
-### The script for preprocessing was reorganized but the content reminds unchanged. Orignially the preprocessing was done in seperated scripts (under folder ./orig, intenal only). 
+### The script for preprocessing was reorganised but the content reminds unchanged. Originally the preprocessing was done in separated scripts (under folder ./orig, internal only). 
 
 ### Preprocessing steps:
 #### Note: LIFE Study was done using the twice-refocused spin-echo DTI
@@ -11,11 +11,11 @@
 2. skull stripping
 	- bet
 	- quality check for brain mask
-	- correated brain mask manually
+	- corrected brain mask manually
 3. tensor fitting
 	- dtifit
 	- quality check for resulting images using QC_ENIGMA protocol
-	- quality check for ghost artifact manualy
+	- quality check for ghost artefact manually
 	
 
 ### Tract-Based Spacial Statistic (TBSS) analysis steps:
